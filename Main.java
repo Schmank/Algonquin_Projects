@@ -12,8 +12,18 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
 
+
 //Can add more style to it with CSS sheet
 //Just early prototype
+
+/* -Need to go over design more thoroughly with what fields we need exactly
+ * -Still need to integrate CSS into design
+ * -Need a results tab for report
+ * -Results tab should have button for graph generation [If needed]
+ * -TextFields should have prompt messages
+ * -Make a "Clear" button that erases all text entered into field
+ * -Search history?
+ * -Make it far less ugly*/
 
 public class Main extends Application {
 

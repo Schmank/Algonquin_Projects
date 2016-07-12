@@ -1,10 +1,11 @@
-//modify to insert into sql connection
-//Base target with more to come for queries.
+package application;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
 
-import java.sql.*;
-public class SqlConnect {
-	public static void Insert(String Fname, String Lname, int DOB){
+public class SQLconnect {
+	public void Insert(String Fname, String Lname, int DOB){
 		try{
 			String insert1="INSERT INTO Student_T "+"Values("+Fname+","+Lname+","+DOB+")";
 			String url="jbdc:mysql://192.168.2.130/Archive"; //Local server. need to get usable/Host PC for demo
@@ -16,5 +17,16 @@ public class SqlConnect {
 			System.out.println("Problem");
 			System.out.println(e.getMessage());
 		}
+	}
+
+	//Not done yet
+	public String search(String cAccount, String inventory, String query3, String query4){ //Find a way to have method take variable amount of parameters. Worst case scenario, can make alternate methods containing different number of parameters and have conditional in the either the app or this class decide which method to call based on if fields in form are filled out or not.
+		String search=cAccount+inventory+query3+query4;
+
+		return search;
+	}
+
+	public void searchDecide(){
+
 	}
 }
