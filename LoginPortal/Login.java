@@ -4,6 +4,9 @@
  * 			-Sign up button (To create account & send e-mail verification)
  * 			-"Tooltips" (for fun)*/
 
+
+//This needs to be re-written in JavaFX rather than awt/swing
+
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
