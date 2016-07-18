@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="950.0" prefWidth="1700.0" styleClass="theme" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ScrollPane layoutY="45.0" prefHeight="521.0" prefWidth="163.0">
+         <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="687.0" prefWidth="92.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="-2.0" prefHeight="45.0" prefWidth="95.0" text="Libraries" underline="true" />
+                  <Hyperlink layoutX="8.0" layoutY="45.0" text="Sales" />
+                  <Hyperlink layoutX="8.0" layoutY="121.0" text="Inventory" />
+                  <Hyperlink layoutX="8.0" layoutY="196.0" text="Hyperlink" />
+                  <Hyperlink layoutX="9.0" layoutY="267.0" text="Hyperlink" />
+                  <Hyperlink layoutX="8.0" layoutY="344.0" text="Hyperlink" />
+                  <Hyperlink layoutX="8.0" layoutY="607.0" text="Hyperlink" />
+                  <Hyperlink layoutX="10.0" layoutY="514.0" text="Hyperlink" />
+                  <Hyperlink layoutX="8.0" layoutY="422.0" text="Hyperlink" />
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <ScrollPane layoutY="566.0" prefHeight="342.0" prefWidth="163.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="409.0" prefWidth="216.0">
+               <children>
+                  <DatePicker layoutY="35.0" prefHeight="155.0" prefWidth="142.0" />
+                  <DatePicker layoutY="226.0" prefHeight="158.0" prefWidth="142.0" />
+                  <Separator layoutX="-36.0" layoutY="-1.0" prefWidth="200.0" />
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <ToolBar prefHeight="45.0" prefWidth="1700.0">
+        <items>
+          <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Button" />
+        </items>
+      </ToolBar>
+      <Separator layoutX="163.0" layoutY="45.0" orientation="VERTICAL" prefHeight="864.0" prefWidth="9.0" />
+   </children>
+</AnchorPane>
